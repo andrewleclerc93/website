@@ -1,0 +1,104 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+a:link{
+  text-decoration: none;
+}
+ 
+li {
+  list-style: none;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* ================================= 
+  Navigation Layout Styles
+==================================== */
+.main-header,
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-header {
+  background-color: lightgrey;
+}
+
+.name{
+  text-shadow: .04em .04em 1px #a8a8a8;
+  text-align: center;
+  font: bold 2em/.5 Trebucket;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.catagory  {
+  background-color: lightgrey;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.catagory {
+  font: bold 1.5em/.5 Trebucket;
+}
+
+/* ================================= 
+  Main Image Layout Styles
+==================================== */
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.main-content {
+  display: flex;
+}
+
+.articles {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+.menu {
+  max-width: 300px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 4px 4px 6px 1px rgba(0,0,0, .3),
+  inset 0 0px 20 2px rgba(0,0,0, .2);
+}
+
+/* ================================= 
+  Footer Layout Styles
+==================================== */
+
+.footer {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (max-width: 1024px) {
+
+}
