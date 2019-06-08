@@ -28,15 +28,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.main-header {
   background-color: lightgrey;
 }
 
-.name{
+.name {
   text-shadow: .04em .04em 1px #a8a8a8;
-  text-align: center;
   font: bold 2em/.5 Trebucket;
   padding: 10px;
   margin-left: 10px;
@@ -46,10 +42,6 @@ li {
   background-color: lightgrey;
   margin: 10px;
   padding: 5px;
-  text-align: center;
-}
-
-.catagory {
   font: bold 1.5em/.5 Trebucket;
 }
 
