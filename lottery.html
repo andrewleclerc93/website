@@ -1,43 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta name="vieport" content="width=device-width">
-    <title>Technology-Unbound</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <body class="site">
 
-    <header class="main-header">
+    <header class="main-header text-center">
         <h1 class="name">Technology-Unbound</h1>
-        <div class="main-nav">
-            <div class="catagory"><a href="index.html">Home</div>
-            <div class="catagory"><a href="#">Delidding Services</div>
-            <div class="catagory"><a href="#">About Me</div>
-        </div>
     </header>
 
-    <main>
+    <div class="container">
         <h1>Random Lottery Number Generator</h1>
-        
+
         <!--  List of lottery games to choose from  -->
         <div>
             <h2>Select the game:</h2>
-            <h3 id="powerball">Powerball</h3>
-            <h3 id="megaMillions">Mega Millions</h3> 
+            <button type="button" id="powerball" class="btn btn-primary">Powerball</button>
+            <button type="button" id="megaMillions" class="btn btn-primary">Mega Millions</button>
         </div>
-        
-        <div>
-            <!--  Generate the games here  -->
+        <hr>
+
+        <!--  Generate the games here  -->
+        <div id="game">
+            
         </div>
 
-    </main>
-
-    <footer class="footer">
-        <p>This is the footer section of the website. This is just some filler text.</p>
-    </footer>
+    </div>
 
     <script src="js/lottery.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
